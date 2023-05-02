@@ -257,21 +257,24 @@ ul{
 .page-4{
     height: 110%;
     width: 100%;
-    background-image: url(background/form\(3\).png);
+    background-image: url(background/page4-back.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .h1{
-    padding:80px 0px 0px 300px;
-    font-size: 40px;
+    padding-top: 70px;
+    font-size: 50px;
+    text-align: center;
+    color: wheat;
     text-decoration: underline;
 }
 .form-container{
     height:300px;
     width: 400px;
     border: 2px solid black;
-    margin: 3% 0% 0% 11%;
+    margin: 3% 0% 0% 34%;
     border-radius: 30px;
-    box-shadow: #040b2b -10px 3px 2px ;
+    box-shadow: #5262ac -10px 3px 2px ;
 }
 input{
     margin-bottom: 5px;
