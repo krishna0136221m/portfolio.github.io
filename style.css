@@ -51,6 +51,7 @@ ul{
     height: 110%;  width: 100%;
     background-image: url(background/home-back.png);
     background-size: contain;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
