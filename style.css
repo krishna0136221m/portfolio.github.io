@@ -214,8 +214,10 @@ ul{
 .page-3{
     height: 110%;
     width: 100%;
-    background-image: url(background/skill-back.png);
-    background-size:cover;
+    background-image: url(background/skill-back-1.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .p3-grid-container{
