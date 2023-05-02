@@ -1,0 +1,336 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%; width: 100%;
+    background-color: black;
+}
+.main-container{
+    height: 100%;  width: 100%;
+}
+
+.nav{
+    height: 8%; width: 100%;
+    background-color: rgb(28, 28, 56);
+    padding-top: 1%;
+    position: fixed;
+    z-index: 1000;
+}
+.nav2{
+    height: 8%; width: 100%;
+    background-color:black;
+    padding-top: 1%;
+    position: fixed;
+    z-index: 1000;
+}
+.nav3{
+    height: 8%; width: 100%;
+    background-color:pink;
+    padding-top: 2%;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+ul{
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    column-gap: 60px;
+    justify-content: center;
+}
+.page-1{
+    height: 110%;  width: 100%;
+    background-image: url(background/home-back.png);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.page1-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.page1-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+.p1-sec1-content{
+    display: inline-block;
+    margin: auto;
+}
+.text1{
+    color: wheat;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: monospace;
+    border-right:5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow:hidden ;
+    animation: 
+    typing 2s steps(18),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{
+         border-color:transparent ;
+    }
+}
+@keyframes typing {
+    from{width: 0;}
+}
+
+.text1-copy{
+    font-size: 40px;
+    font-weight: bolder;
+    color: wheat;
+    letter-spacing: 2px;
+    font-family: monospace;
+    width: 100%;
+    text-shadow: red 1px 1px 1px;
+}
+.x{
+    opacity: 0;
+}
+.text2{
+    color: #ad982d;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: monospace;
+    border-right:3px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow:hidden ;
+    animation: 
+    typing 2s steps(18),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{
+         border-color:transparent ;
+    }
+}
+@keyframes typing {
+    from{width: 0;}
+}
+
+.text2-copy{
+    color: #ad982d;
+    padding-top: 20px;
+    font-size: 25px; font-weight: bolder;bletter-spacing: 2px; font-family: monospace;
+    width: 100%;
+}
+.animate1{
+    animation: animate1 3s;  
+}
+@keyframes animate1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        transform: translateX(600px);
+    }
+}
+.h2{
+    color:white; text-align: center; font-size: 50px;
+    text-decoration: underline;
+    padding-top: 5%;
+    font-family:cursive;
+    letter-spacing: 4px;
+}
+.page-2{
+    height: 105%; width: 100%;
+    background-image: url(background/about-back.png);
+    background-size: cover;
+}
+.page2-container{
+    height: 70%;
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+}
+.page-2-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.animation1{
+    transform: translateX(-400px);
+}
+.animation2{
+    transform: translateY(400px);
+}
+.animate2{
+    animation: animate2 3s;
+}
+@keyframes animate2 {
+    0%{
+        opacity: 0;
+        transform: translateX(-400px)
+    }
+    10%{
+        opacity: 0.2;
+        transform: translateX(-400px);
+    }
+    
+}
+.page-2-section2{
+    display: flex; justify-content: center; align-items: center; overflow: hidden;
+}
+.para-page2{
+    text-align: center; color: white;
+    font-size: 25px;  font-family:cursive; word-spacing: 5px;
+}
+.animate3{
+    width: 90%;
+    animation: animate3 3s;
+}
+@keyframes animate3{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+        transform: translateY(300px);
+    }
+}
+.page-3{
+    height: 110%;
+    width: 100%;
+    background-image: url(background/skill-back.png);
+    background-size:cover;
+}
+
+.p3-grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 2% 0% 0% 8%;
+    grid-row-gap: 50px;
+    height: 110%;
+
+}
+.animation3{
+    opacity: 0;
+}
+.animate4{
+    animation: animate4 1.5s;
+    transform: translateY(50px);
+}
+@keyframes animate4 {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        transform: translateY(-400px);
+    }
+    
+}
+.p3-items{
+    height: 150px;
+    width:  150px;
+}
+
+.img-logo{
+    width: 100%;
+    height: 100%;
+}
+.logo-resize{
+   margin-bottom: 10px;
+}
+.page-4{
+    height: 110%;
+    width: 100%;
+    background-image: url(background/form\(3\).png);
+    background-size: cover;
+}
+.h1{
+    padding:80px 0px 0px 300px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.form-container{
+    height:300px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 3% 0% 0% 11%;
+    border-radius: 30px;
+    box-shadow: #040b2b -10px 3px 2px ;
+}
+input{
+    margin-bottom: 5px;
+    width: 390px;
+    height: 20px;  
+    border-radius: 10px; 
+}
+input:hover{
+    background-color: aqua;
+}
+#submit{
+    border-radius: 10px; 
+    height: 40px;   
+}
+#submit:hover{
+    background-color: blue;
+    height: 30px;
+}
+textarea{
+    border-radius: 10px;
+    width: 390px;
+}
+textarea:hover{
+    background-color: aqua;
+}
+.animation4{
+   opacity: 0;
+}
+.animate5{
+    opacity: 1;
+    animation: animate5 3s;
+}
+@keyframes animate5 {
+    0%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.4;
+    }
+    40%{
+        opacity: 0.7;
+    }
+    60%{
+        opacity: 1;
+    }
+}
+.footer{
+    height: 35%;
+    background-image: url(background/footer-img.png);
+    background-size: cover;
+}
+.last{
+    color:wheat;
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+.lstspn{
+    color: white;
+    word-spacing: 2px;
+    padding-left:41%;
+}
