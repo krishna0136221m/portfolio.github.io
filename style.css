@@ -258,7 +258,7 @@ ul{
     height: 110%;
     width: 100%;
     background-image: url(background/page4-back.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .h1{
